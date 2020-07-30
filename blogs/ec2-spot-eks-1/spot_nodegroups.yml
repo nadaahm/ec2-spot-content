@@ -1,7 +1,7 @@
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
-    name: eksworkshop-eksctl
+    name: eks-spotcluster
     region: us-east-2
 nodeGroups:
     - name: dev-4vcpu-16gb-spot
